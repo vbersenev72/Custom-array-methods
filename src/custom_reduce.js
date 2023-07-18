@@ -10,7 +10,5 @@ Array.prototype.customReduce = function(callback, initialValue) {
 
 // Тесты =>
 const array = [1, 2, 3, 4, 5];
-
 const sum = array.customReduce((accumulator, currentValue) => accumulator + currentValue, 0);
-
 console.log(sum); // Выведет: 15
